@@ -1,1 +1,7 @@
-style.css
+div.row:nth-child(even) {
+	background: aliceblue;
+}
+
+.col-sm {
+	margin: 10px 0;
+}

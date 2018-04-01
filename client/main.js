@@ -132,13 +132,13 @@ $(function() {
     var calorieValueNode = $(node).find(`input[name='calories${index}']`);
     calorieValueNode.val(meal.calories.value);
   }
-  $("#refresh").click(
-    $.debounce(250, function(e) {
+  $('input').on('change', $.debounce(250, function(e) {
       var payload = {
         id: $("#data-id").val(),
         meditation: $("#meditation").val(),
         workout: $("#workout").val()
       };
+      console.log(payload);
     })
   );
 
