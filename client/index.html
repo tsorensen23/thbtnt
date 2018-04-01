@@ -1,332 +1,415 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="./bootstrap.min.css" > -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="container">
-    	<div class="row">
-    		<p class="col-sm"> Date: </p>
-    		<input class="col-sm" type="Date" name="">
-    	</div>
-    	<div class="row">
-    		<div class="col-sm">
-    			<p>Food</p>
-    		</div>
-    		<div class="col-sm">
-    			<p>Time</p>
-    		</div>
-    		<div class="col-sm">
-    			<p>Type</p>
-    		</div>
-    		<div class="col-sm">
-    			<p>Calories</p>
-    		</div>
-    		<div class="col-sm">
-    			<p>Score</p>
-    		</div>
-    	</div>
-    	<div>
-    		<div class="row">
-    			<div class="col-sm">
-    				<label> Snack <input type="radio" name="food" value="S" label="S"> </label>
-    				<label> Meal <input type="radio" name="food" value="M" label="M"> </label>
-    			</div>
-    			<div></div>
-    		
-    			<div class="col-sm">
-    				<div>
-	    				<label> Master <input type="radio" name="time" value="S"> </label>
-    					<label> Fatalist <input type="radio" name="time" value="M"> </label>
-    				</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>
-    			</div>
-	    		<div class="col-sm">
-	    			<div>
-		    			<label> Master <input type="radio" name="type" value="S"> </label>
-		    			<label> Fatalist <input type="radio" name="type" value="M"> </label>
-	    			</div>
-	    			<div>
-		    			<input value="text">
-					</div>
-	    		</div>
-	    		<div class="col-sm">
-	    			<div>
-		    			<label> Master <input type="radio" name="calories" value="S"></label>
-		    			<label> Fatalist <input type="radio" name="calories" value="M"></label>
-	    			</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>
-			
-	    		</div>
-	    		<div class="col-sm">
-	    			<div>
-
-	    			</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>	
-	    		</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-sm">
-    				<label> Snack <input type="radio" name="food" value="S" label="S"> </label>
-    				<label> Meal <input type="radio" name="food" value="M" label="M"> </label>
-    			</div>
-    			<div></div>
-    		
-    			<div class="col-sm">
-    				<div>
-	    				<label> Master <input type="radio" name="time" value="S"> </label>
-    					<label> Fatalist <input type="radio" name="time" value="M"> </label>
-    				</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>
-    			</div>
-	    		<div class="col-sm">
-	    			<div>
-		    			<label> Master <input type="radio" name="type" value="S"> </label>
-		    			<label> Fatalist <input type="radio" name="type" value="M"> </label>
-	    			</div>
-	    			<div>
-		    			<input value="text">
-					</div>
-	    		</div>
-	    		<div class="col-sm">
-	    			<div>
-		    			<label> Master <input type="radio" name="calories" value="S"></label>
-		    			<label> Fatalist <input type="radio" name="calories" value="M"></label>
-	    			</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>
-			
-	    		</div>
-	    		<div class="col-sm">
-	    			<div>
-	    				
-	    			</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>	
-	    		</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-sm">
-    				<label> Snack <input type="radio" name="food" value="S" label="S"> </label>
-    				<label> Meal <input type="radio" name="food" value="M" label="M"> </label>
-    			</div>
-    			<div></div>
-    		
-    			<div class="col-sm">
-    				<div>
-	    				<label> Master <input type="radio" name="time" value="S"> </label>
-    					<label> Fatalist <input type="radio" name="time" value="M"> </label>
-    				</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>
-    			</div>
-	    		<div class="col-sm">
-	    			<div>
-		    			<label> Master <input type="radio" name="type" value="S"> </label>
-		    			<label> Fatalist <input type="radio" name="type" value="M"> </label>
-	    			</div>
-	    			<div>
-		    			<input value="text">
-					</div>
-	    		</div>
-	    		<div class="col-sm">
-	    			<div>
-		    			<label> Master <input type="radio" name="calories" value="S"></label>
-		    			<label> Fatalist <input type="radio" name="calories" value="M"></label>
-	    			</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>
-			
-	    		</div>
-	    		<div class="col-sm">
-	    			<div>
-	    				
-	    			</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>	
-	    		</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-sm">
-    				<label> Snack <input type="radio" name="food" value="S" label="S"> </label>
-    				<label> Meal <input type="radio" name="food" value="M" label="M"> </label>
-    			</div>
-    			<div></div>
-    		
-    			<div class="col-sm">
-    				<div>
-	    				<label> Master <input type="radio" name="time" value="S"> </label>
-    					<label> Fatalist <input type="radio" name="time" value="M"> </label>
-    				</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>
-    			</div>
-	    		<div class="col-sm">
-	    			<div>
-		    			<label> Master <input type="radio" name="type" value="S"> </label>
-		    			<label> Fatalist <input type="radio" name="type" value="M"> </label>
-	    			</div>
-	    			<div>
-		    			<input value="text">
-					</div>
-	    		</div>
-	    		<div class="col-sm">
-	    			<div>
-		    			<label> Master <input type="radio" name="calories" value="S"></label>
-		    			<label> Fatalist <input type="radio" name="calories" value="M"></label>
-	    			</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>
-			
-	    		</div>
-	    		<div class="col-sm">
-	    			<div>
-	    				
-	    			</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>	
-	    		</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-sm">
-    				<label> Snack <input type="radio" name="food" value="S" label="S"> </label>
-    				<label> Meal <input type="radio" name="food" value="M" label="M"> </label>
-    			</div>
-    			<div></div>
-    		
-    			<div class="col-sm">
-    				<div>
-	    				<label> Master <input type="radio" name="time" value="S"> </label>
-    					<label> Fatalist <input type="radio" name="time" value="M"> </label>
-    				</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>
-    			</div>
-	    		<div class="col-sm">
-	    			<div>
-		    			<label> Master <input type="radio" name="type" value="S"> </label>
-		    			<label> Fatalist <input type="radio" name="type" value="M"> </label>
-	    			</div>
-	    			<div>
-		    			<input value="text">
-					</div>
-	    		</div>
-	    		<div class="col-sm">
-	    			<div>
-		    			<label> Master <input type="radio" name="calories" value="S"></label>
-		    			<label> Fatalist <input type="radio" name="calories" value="M"></label>
-	    			</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>
-			
-	    		</div>
-	    		<div class="col-sm">
-	    			<div>
-	    				
-	    			</div>
-	    			<div>
-	    				<input value="text">
-	    			</div>	
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="row">
-    		<div class="col-sm">
-    			<p>Exercise</p>
-    		</div>
-			<div class="col-sm">
-				
-				<label> Master <input type="radio" name="calories" value="S"></label>
-    			<label> Fatalist <input type="radio" name="calories" value="M"></label>
-    		</div>
-    		<div class="col-sm">
-    			<div>
-    				<p>Score</p>
-    				<input value="text">
-    			</div>
- 				<div>
-		   			<p>Relaxation</p>
- 				</div>
-    		</div>
-    		<div class="col-sm">
-    			<label> Master <input type="radio" name="calories" value="S"></label>
-    			<label> Fatalist <input type="radio" name="calories" value="M"></label>
-    		</div>
-    		<div>
-    		</div>
-    		<div class="col-sm">
-    			<div>
-		   			<p>Score</p>
- 				</div>
- 				<div>
- 				</div>
-    		</div>
-    		</div>
-    		<div class="row">
-    			<div>
-    				<p>Total Score</p>
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-sm">
-    				<div>
-						<p>Yesterday</p>
-    				</div>
-    				<div>
-    					<input value="text">
-    				</div>
-	    		<div class="col-sm">
-    				<div>
-						<p>Today</p>
-    				</div>
-    				<div>
-    					<input value="text">
-    				</div>	
-    			</div>
-    			<div class="col-sm">
-    				<div>
-						<p>Tomorrow</p>
-    				</div>
-    				<div>
-    					<input value="text">
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-   	</div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="journal" id="journal" style="display:none;">
+            <div class="row">
+                <p class="col-sm"> Date: </p>
+                <input type="Date" name="">
+                <input type="hidden" id="data-id" name="id" />
+            </div>
+            <div id="meals">
+                <div class="row">
+                    <div class="col-sm">
+                        <p>Food</p>
+                    </div>
+                    <div class="col-sm">
+                        <p>Time</p>
+                    </div>
+                    <div class="col-sm">
+                        <p>Type</p>
+                    </div>
+                    <div class="col-sm">
+                        <p>Calories</p>
+                    </div>
+                    <div class="col-sm">
+                        <p>Score</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label> Snack
+                            <input type="radio" name="food1" value="snack" label="S"> </label>
+                        <label> Meal
+                            <input type="radio" name="food1" value="meal" label="M"> </label>
+                    </div>
+                    <div></div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="timemaster1" value="true"> </label>
+                            <label> Fatalist
+                                <input type="radio" name="timemaster1" value="false"> </label>
+                        </div>
+                        <div>
+                            <input value="text" name='time1'>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="typemaster1" value="true"> </label>
+                            <label> Fatalist
+                                <input type="radio" name="typemaster1" value="false"> </label>
+                        </div>
+                        <div>
+                            <input value="text" name="type1">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="caloriesmaster1" value="true">
+                            </label>
+                            <label> Fatalist
+                                <input type="radio" name="caloriesmaster1" value="false">
+                            </label>
+                        </div>
+                        <div>
+                            <input name="calories1">
+                        </div>
+
+                    </div>
+                    <div class="col-sm">
+                        <div>
+
+                        </div>
+                        <div>
+                            <input value="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label> Snack
+                            <input type="radio" name="food2" value="snack" label="S"> </label>
+                        <label> Meal
+                            <input type="radio" name="food2" value="meal" label="M"> </label>
+                    </div>
+                    <div></div>
+
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="timemaster2" value="true"> </label>
+                            <label> Fatalist
+                                <input type="radio" name="timemaster2" value="false"> </label>
+                        </div>
+                        <div>
+                            <input value="text" name='time2'>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="typemaster2" value="true"> </label>
+                            <label> Fatalist
+                                <input type="radio" name="typemaster2" value="false"> </label>
+                        </div>
+                        <div>
+                            <input value="text" name="type2">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="caloriesmaster2" value="true">
+                            </label>
+                            <label> Fatalist
+                                <input type="radio" name="caloriesmaster2" value="false">
+                            </label>
+                        </div>
+                        <div>
+                            <input name="calories2">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+
+                        </div>
+                        <div>
+                            <input value="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label> Snack
+                            <input type="radio" name="food3" value="snack" label="S"> </label>
+                        <label> Meal
+                            <input type="radio" name="food3" value="meal" label="M"> </label>
+                    </div>
+                    <div></div>
+
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="timemaster3" value="true"> </label>
+                            <label> Fatalist
+                                <input type="radio" name="timemaster3" value="false"> </label>
+                        </div>
+                        <div>
+                            <input value="text" name='time3'>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="typemaster3" value="true"> </label>
+                            <label> Fatalist
+                                <input type="radio" name="typemaster3" value="false"> </label>
+                        </div>
+                        <div>
+                            <input value="text" name="type3">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="caloriesmaster3" value="true">
+                            </label>
+                            <label> Fatalist
+                                <input type="radio" name="caloriesmaster3" value="false">
+                            </label>
+                        </div>
+                        <div>
+                            <input name="calories3">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+
+                        </div>
+                        <div>
+                            <input value="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label> Snack
+                            <input type="radio" name="food4" value="snack" label="S"> </label>
+                        <label> Meal
+                            <input type="radio" name="food4" value="meal" label="M"> </label>
+                    </div>
+                    <div></div>
+
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="timemaster4" value="true"> </label>
+                            <label> Fatalist
+                                <input type="radio" name="timemaster4" value="false"> </label>
+                        </div>
+                        <div>
+                            <input value="text" name='time4'>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="typemaster4" value="true"> </label>
+                            <label> Fatalist
+                                <input type="radio" name="typemaster4" value="false"> </label>
+                        </div>
+                        <div>
+                            <input value="text" name="type4">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="caloriesmaster4" value="true">
+                            </label>
+                            <label> Fatalist
+                                <input type="radio" name="caloriesmaster4" value="false">
+                            </label>
+                        </div>
+                        <div>
+                            <input name="calories4">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+
+                        </div>
+                        <div>
+                            <input value="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label> Snack
+                            <input type="radio" name="food5" value="snack" label="S"> </label>
+                        <label> Meal
+                            <input type="radio" name="food5" value="meal" label="M"> </label>
+                    </div>
+                    <div></div>
+
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="timemaster5" value="true"> </label>
+                            <label> Fatalist
+                                <input type="radio" name="timemaster5" value="false"> </label>
+                        </div>
+                        <div>
+                            <input value="text" name='time5'>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="typemaster5" value="true"> </label>
+                            <label> Fatalist
+                                <input type="radio" name="typemaster5" value="false"> </label>
+                        </div>
+                        <div>
+                            <input value="text" name="type5">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <label> Master
+                                <input type="radio" name="caloriesmaster5" value="true">
+                            </label>
+                            <label> Fatalist
+                                <input type="radio" name="caloriesmaster5" value="false">
+                            </label>
+                        </div>
+                        <div>
+                            <input name="calories5">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+
+                        </div>
+                        <div>
+                            <input value="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <p>Exercise</p>
+                </div>
+                <div class="col-sm">
+
+                    <label> Master
+                        <input type="radio" name="calories" value="S">
+                    </label>
+                    <label> Fatalist
+                        <input type="radio" name="calories" value="M">
+                    </label>
+                </div>
+                <div class="col-sm">
+                    <div>
+                        <p>Score</p>
+                        <input value="text">
+                    </div>
+                    <div>
+                        <p>Relaxation</p>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <label> Master
+                        <input type="radio" name="calories" value="S">
+                    </label>
+                    <label> Fatalist
+                        <input type="radio" name="calories" value="M">
+                    </label>
+                </div>
+                <div>
+                </div>
+                <div class="col-sm">
+                    <div>
+                        <p>Score</p>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <p>Total Score</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div>
+                        <p>Yesterday</p>
+                    </div>
+                    <div>
+                        <input value="text">
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <p>Today</p>
+                        </div>
+                        <div>
+                            <input value="text">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <p>Tomorrow</p>
+                        </div>
+                        <div>
+                            <input value="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="login-form" style="display:none;">
+            <form id="login" class="form">
+                <label class="control-label" for="email">Email</label>
+                <input name="email" value="" type="text" class="input-small" />
+                <label class="control-label" for="password">Password</label>
+                <input name="password" value="" type="password" class="input-small" />
+                <button type="submit" value="submit" class="btn-success">Submit</button>
+            </form>
+        </div>
+        <button id="create-user">Create Account</button>
+        <div id="create-form" style="display:none;">
+            <form id="create" class="form">
+                <label class="control-label" for="email">Email</label>
+                <input name="email" value="" type="text" class="input-small" />
+                <label class="control-label" for="password">Password</label>
+                <input name="password" value="" type="password" class="input-small" />
+                <button type="submit" value="submit" class="btn-success">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</body>
+
 </html>
