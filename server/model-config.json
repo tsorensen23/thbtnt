@@ -14,7 +14,7 @@
     ]
   },
   "JournalEntry": {
-    "dataSource": null,
+    "dataSource": "mongodb",
     "public": true
   }
 }

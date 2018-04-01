@@ -1,9 +1,9 @@
 {
   "mongodb": {
-    "host": "",
-    "port": 0,
-    "url": "mongodb://localhost/thbtnt",
-    "database": "",
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "thbtnt",
     "password": "",
     "name": "mongodb",
     "user": "",
