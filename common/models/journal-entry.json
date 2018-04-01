@@ -1,0 +1,34 @@
+{
+  "name": "JournalEntry",
+  "plural": "JournalEntries",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "workout": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "meditation": {
+      "type": "boolean",
+      "default": false
+    },
+    "meals": {
+      "type": [
+        "object"
+      ],
+      "default": "none"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
