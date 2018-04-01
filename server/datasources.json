@@ -1,11 +1,11 @@
 {
-  "mongodb": {
+  "db": {
     "host": "localhost",
     "port": 27017,
     "url": "",
     "database": "thbtnt",
     "password": "",
-    "name": "mongodb",
+    "name": "db",
     "user": "",
     "connector": "mongodb"
   }
